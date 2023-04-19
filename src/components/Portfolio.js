@@ -1,7 +1,9 @@
 import React from 'react'
-//import images from asset folder
-//links to code will also to be provided
-//using onclick handler
+import project1 from "../stack/project1.PNG"
+import Project2 from "../stack/Project2.PNG"
+import Project3 from "../stack/Project3.PNG"
+import Project4 from "../stack/Project4.PNG"
+import Project5 from "../stack/Project5.PNG"
 const Portfolio = () => {
 
     return (
@@ -18,38 +20,38 @@ justify-center w-full h-full'>
                     
 
                         <div className='shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105'>
-                            <img src='' alt='' />
+                            <img src={project1} alt='Tour_Guide' />
                             <div className='flex items-center justify-center'>
-                            <a href=''><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Live</button></a>
-                                <a href=''><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
+                            <a href='https://tour-guide-ten.vercel.app/' target='_blank' rel="noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Live</button></a>
+                                <a href='https://github.com/chahatjl/Tour-Guide' target='_blank' rel="noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
                             </div>
                         </div>
                         <div className='shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105'>
-                            <img src='' alt='' />
+                            <img src={Project2} alt='Discord_Clone' />
                             <div className='flex items-center justify-center'>
-                            <a href=''><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Live</button></a>
-                                <a href=''><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
+                            <a href='https://discordclonechahat.netlify.app/' target='_blank' rel="noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Live</button></a>
+                                <a href='https://github.com/chahatjl/DiscordClone' target='_blank' rel="noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
                             </div>
                         </div>
                         <div className='shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105'>
-                            <img src='' alt='' />
+                            <img src={Project3} alt='Weather_App' />
                             <div className='flex items-center justify-center'>
-                            <a href=''><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Live</button></a>
-                                <a href=''><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
+                            <a href='https://chahatweatherapp.netlify.app'target='_blank' rel="noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Live</button></a>
+                                <a href='https://github.com/chahatjl/WeatherApp'target='_blank' rel="noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
                             </div>
                         </div>
                         <div className='shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105'>
-                            <img src='' alt='' />
+                            <img src={Project4} alt='StudyNotion' />
                             <div className='flex items-center justify-center'>
-                            <a href=''><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Live</button></a>
-                                <a href=''><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
+                            <a href='https://studynotion.netlify.app/'target='_blank' rel="noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Live</button></a>
+                                <a href='https://github.com/chahatjl/router-project-starter'target='_blank' rel="noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
                             </div>
                         </div>
                         <div className='shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105'>
-                            <img src='' alt='' />
+                            <img src={Project5} alt='Random-Gif-Generator' />
                             <div className='flex items-center justify-center'>
-                                <a href=''><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Live</button></a>
-                                <a href=''><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
+                                <a href='https://random-gif-generator-eight.vercel.app/'target='_blank' rel="noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Live</button></a>
+                                <a href='https://github.com/chahatjl/RandomGifGenerator'target='_blank' rel="noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
                             </div>
                         </div>
 

@@ -13,7 +13,7 @@ const Home = () => {
             <div className='flex flex-col justify-center h-full'>
                 <div className='flex relative max-w-[200px]'><h2 className='text-4xl sm:text-7xl font-bold text-white'><Type/></h2></div>
                 
-                <p className='text-gray-500 py-4 max-w-md text-5xl'>Hi I am <span className=' text-blue-800'>chahat jindal</span></p>
+                <p className='text-gray-500 py-4 max-w-md text-5xl'>Hi I am <span className=' text-blue-800 uppercase'>chahat jindal</span></p>
                 <div>
                     <Link to='portfolio'
                     smooth duration={500}

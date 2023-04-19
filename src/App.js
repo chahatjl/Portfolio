@@ -23,18 +23,18 @@ function App() {
   return (
     <div className={darkmode && "dark"}>
       {
-        isLoading?(<div className="flex items-center justify-center my-48 bg-black w-screen h-screen">
+        isLoading?(<div className="flex items-center justify-center bg-black w-screen h-screen">
           <ThreeDots height="180"  width="180"  radius="9" color="#808080" ariaLabel="three-dots-loading" wrapperStyle={{}}
     wrapperClassName=""
     visible={true}/></div>)
     :
-    ( <div className={darkmode && "dark"}>
+    ( <div className={darkmode && "dark"} >
       <NavBar darkmode={darkmode} setDarkMode={setDarkMode}/>
       <Home/>
-      <About/>
-      <Portfolio/>
-      <Experience/>
-      <Contact/>
+      <About />
+      <Portfolio />
+      <Experience />
+      <Contact />
       <SocialLinks/>
       </div>)
       }

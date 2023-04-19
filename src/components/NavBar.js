@@ -31,8 +31,7 @@ const NavBar = ({darkmode,setDarkMode}) => {
         },
     ]
   return (
-    <div className='flex justify-between items-center text-white
-    w-full h-20 fixed bg-black px-4'>
+    <div className='flex justify-between items-center text-white w-full h-20 fixed bg-black px-4'>
         <div>
             <h1 className='text-5xl font-sign ml-2'>Chahat</h1>
         </div>
