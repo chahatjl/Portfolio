@@ -7,7 +7,7 @@ import Project5 from "../stack/Project5.PNG"
 const Portfolio = () => {
 
     return (
-        <div name="portfolio" className='dark:bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen'>
+        <div name="portfolio" className='dark:bg-gradient-to-b from-black to-gray-800 w-full text-gray-500 font-bold text-xl md:h-screen'>
 
             <div className='max-w-screen-lg p-4 max-auto flex flex-col
 justify-center w-full h-full'>

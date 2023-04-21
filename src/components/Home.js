@@ -4,14 +4,15 @@ import cj from "../stack/40752.jpg";
 import {MdKeyboardArrowRight} from "react-icons/md";
 import { Link } from 'react-scroll';
 import Type from './Type';
+import "./Home.css";
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 text-white flex'>
+    <div name="home" className='h-screen w-full dark:bg-gradient-to-b from-black via-black to-gray-800 text-gray-500 font-bold text-xl flex'>
         <div className='max-w-screen-lg mx-auto flex flex-col
         items-center justify-ceLinknter h-full px-4 mf:flex-row'>
             <div className='flex flex-col justify-center h-full'>
-                <div className='flex relative max-w-[200px]'><h2 className='text-4xl sm:text-7xl font-bold text-white'><Type/></h2></div>
+                <div className='flex relative max-w-[200px]'><h2 className='text-4xl sm:text-7xl text-gray-500 font-bold '><Type/></h2></div>
                 
                 <p className='text-gray-500 py-4 max-w-md text-5xl'>Hi I am <span className=' text-blue-800 uppercase'>chahat jindal</span></p>
                 <div>
@@ -28,7 +29,7 @@ const Home = () => {
            
         </div>
         <div>
-          <img src={cj}  alt='' className='mt-9 mr-7 w-[600px] h-[600px] object-top'></img>
+          <img src={cj}  alt='' className='mt-[6rem] mr-7 w-[600px] h-[600px] object-top rounded-xl image'></img>
                  
         </div>
     </div>

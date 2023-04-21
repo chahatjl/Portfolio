@@ -3,7 +3,7 @@ import avatar from "../stack/avatar.svg";
 
 const About = () => {
   return (
-    <div name="about" className='w-full h-screen dark:bg-gradient-to-b from-gray-800 to-black text-white flex'>
+    <div name="about" className='w-full h-screen dark:bg-gradient-to-b from-gray-800 to-black text-gray-500 font-bold flex'>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col
         justify-center w-full h-full'>
             <div className='pb-8'>
@@ -34,7 +34,7 @@ Whenever possible, I also apply my passion for developing products with Node.js 
         
         </div>
         <div>
-          <img src={avatar} alt='' className='mt-7 mr-4 bg-gradient-to-b from-blue-800 rounded-xl'></img>
+          <img src={avatar} alt='' className='mt-[6rem] mr-4 bg-gradient-to-b from-blue-800 rounded-xl'></img>
         </div>
     </div>
   )
