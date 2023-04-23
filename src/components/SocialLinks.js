@@ -63,7 +63,7 @@ const SocialLinks = () => {
                 Resume <BsFillPersonLinesFill size={30}/>
                 </>
             ),
-            href:'/Chahat_jindal.pdf',
+            href:'https://drive.google.com/file/d/1d_OWETiiLs__bcKzepM1ZkcX9GUrMxVC/view?usp=sharing',
             style:'rounded-br-md',
             download:true,
             
