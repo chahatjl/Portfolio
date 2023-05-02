@@ -3,10 +3,10 @@ import avatar from "../stack/avatar.svg";
 
 const About = () => {
   return (
-    <div name="about" className='w-full h-screen dark:bg-gradient-to-b from-gray-800 to-black text-gray-500 font-bold flex'>
+    <div name="about" className='w-full h-screen dark:bg-gradient-to-b from-gray-800 to-black text-gray-500 font-bold flex '>
         <div className='max-w-screen-lg p-4 mx-auto flex flex-col
         justify-center w-full h-full'>
-            <div className='pb-8'>
+            <div className='pb-8 md:mt-28'>
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>LET ME <span className='text-blue-800 uppercase'>INTRODUCE MYSELF</span></p>
             </div>
           

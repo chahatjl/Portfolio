@@ -36,15 +36,7 @@ const NavBar = ({darkmode,setDarkMode}) => {
             <h1 className='text-5xl font-sign ml-2'>Chahat</h1>
         </div>
          <ul className='hidden md:flex'>
-            <div onClick={()=>setDarkMode(!darkmode)}>
-                {
-                    darkmode?
-                    (<MdWbSunny className='text-2xl cursor-pointer'/>):(<MdNightsStay className='text-2xl cursor pointer'/>)
-                }
-
-                
-                
-            </div>
+            
             <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105
                         duration-200'><span><FaHome/></span><Link to='home' smooth duration={500}>home</Link></li>
             <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105
@@ -55,6 +47,15 @@ const NavBar = ({darkmode,setDarkMode}) => {
                         duration-200'><MdOutlineHomeRepairService/><Link to='experience' smooth duration={500}>experience</Link></li>
             <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105
                         duration-200'><FcContacts/><Link to='contact' smooth duration={500}>contact</Link></li>
+            <li><div onClick={()=>setDarkMode(!darkmode)}>
+                {
+                    darkmode?
+                    (<MdWbSunny className='text-2xl cursor-pointer'/>):(<MdNightsStay className='text-2xl cursor pointer'/>)
+                }
+
+                
+                
+            </div></li>            
 
             {/* {
                 links.map(({id,link})=>
@@ -77,7 +78,17 @@ const NavBar = ({darkmode,setDarkMode}) => {
                         (
                             <li key={id} className='px-4 capitalize cursor-pointer py-6 text-4xl'><Link onClick={()=>setNav(!nav)} to={link} smooth duration={500}>{link}</Link></li>
                         ))
+                        
                 }
+                <li><div onClick={()=>setDarkMode(!darkmode)}>
+                {
+                    darkmode?
+                    (<MdWbSunny className='text-2xl cursor-pointer'/>):(<MdNightsStay className='text-2xl cursor pointer'/>)
+                }
+
+                
+                
+            </div></li>  
             
              </ul>
 

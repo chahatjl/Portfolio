@@ -41,8 +41,8 @@ function App() {
         <div className={`   lg:px-16 w-full ${darkmode ?  "dark"  : ""} dark:bg-gradient-to-b from-black via-black to-gray-800`}>
           <Home />
           <About />
-          <Portfolio />
-          <Experience />
+          <Portfolio  />
+          <Experience  />
           <Contact />
           <SocialLinks />
         </div>

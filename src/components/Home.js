@@ -8,7 +8,7 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen w-full dark:bg-gradient-to-b from-black via-black to-gray-800 text-gray-500 font-bold text-xl flex'>
+    <div name="home" className='h-screen w-full dark:bg-gradient-to-b from-black via-black to-gray-800 text-gray-500 font-bold text-xl flex '>
         <div className='max-w-screen-lg mx-auto flex flex-col
         items-center justify-ceLinknter h-full px-4 mf:flex-row'>
             <div className='flex flex-col justify-center h-full'>
@@ -29,7 +29,7 @@ const Home = () => {
            
         </div>
         <div>
-          <img src={cj}  alt='' className='mt-[6rem] mr-7 w-[600px] h-[600px] object-top rounded-xl image'></img>
+          <img src={cj}  alt='' className='mt-[6rem] mr-7 w-[600px] h-[600px] object-fill rounded-xl image'></img>
                  
         </div>
     </div>
