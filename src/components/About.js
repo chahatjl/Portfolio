@@ -8,9 +8,10 @@ const About = () => {
         <img
           src={avatar}
           alt=""
-          className="mt-12 md:mt-0 max-w-xs md:max-w-full mx-auto"
+          className="mt-12 md:mt-14 max-w-xs md:max-w-full mx-auto"
         />
       </div>
+      
         <div className=' md:w-1/2 max-w-screen-lg p-4 mx-auto flex flex-col
         justify-center w-full h-full'>
             <div className='pb-8 md:mt-28'>
@@ -40,9 +41,7 @@ Whenever possible, I also apply my passion for developing products with Node.js 
 
         
         </div>
-        {/* <div>
-          <img src={avatar} alt='' className='mt-[6rem] mr-4 bg-gradient-to-b from-blue-800 rounded-xl'></img>
-        </div> */}
+       
     </div>
   )
 }
