@@ -7,11 +7,11 @@ import "./Home.css";
 
 const Home = () => {
   return (
-    <div name="home" className='h-screen w-full dark:bg-gradient-to-b from-black via-black to-gray-800 text-gray-500 font-bold text-xl flex'>
+    <div name="home" className='h-screen w-full dark:bg-gradient-to-b from-black via-black to-gray-800 text-gray-500 font-bold text-xl flex '>
       <div className='max-w-screen-lg mx-auto flex flex-col sm:flex-row items-center justify-center h-full px-4'>
         <div className='flex flex-col justify-center sm:w-1/2'>
           <div className='flex relative max-w-[200px]'>
-            <h2 className='text-4xl sm:text-7xl text-gray-500 font-bold '><Type/></h2>
+            <h2 className='text-4xl sm:text-7xl text-gray-500 font-bold mt-[400px] '><Type/></h2>
           </div>
           <p className='text-gray-500 py-4 max-w-md sm:text-5xl'>Hi I am <span className=' text-blue-800 uppercase'>chahat jindal</span></p>
           <div>
