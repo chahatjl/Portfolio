@@ -3,14 +3,21 @@ import avatar from "../stack/avatar.svg";
 
 const About = () => {
   return (
-    <div name="about" className='w-full h-screen dark:bg-gradient-to-b from-gray-800 to-black text-gray-500 font-bold flex '>
-        <div className='max-w-screen-lg p-4 mx-auto flex flex-col
+    <div name="about" className='w-full h-screen dark:bg-gradient-to-b from-gray-800 to-black text-gray-500 font-bold flex flex-col md:flex-row '>
+      <div className="md:w-1/2 flex items-center justify-center">
+        <img
+          src={avatar}
+          alt=""
+          className="mt-12 md:mt-0 max-w-xs md:max-w-full mx-auto"
+        />
+      </div>
+        <div className=' md:w-1/2 max-w-screen-lg p-4 mx-auto flex flex-col
         justify-center w-full h-full'>
             <div className='pb-8 md:mt-28'>
             <p className='text-4xl font-bold inline border-b-4 border-gray-500'>LET ME <span className='text-blue-800 uppercase'>INTRODUCE MYSELF</span></p>
             </div>
           
-          <p className='text-xl mt-20'>
+          <p className='text-xl mt-12'>
         Hi , I am Chahat Jindal Keen Learner having 2.4 years of experience in IT sector
 
         Started of my career as Test Engineer and then changed my profile to Java Developer
@@ -33,9 +40,9 @@ Whenever possible, I also apply my passion for developing products with Node.js 
 
         
         </div>
-        <div>
+        {/* <div>
           <img src={avatar} alt='' className='mt-[6rem] mr-4 bg-gradient-to-b from-blue-800 rounded-xl'></img>
-        </div>
+        </div> */}
     </div>
   )
 }
