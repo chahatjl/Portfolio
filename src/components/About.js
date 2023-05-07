@@ -4,11 +4,11 @@ import avatar from "../stack/avatar.svg";
 const About = () => {
   return (
     <div name="about" className='w-full h-screen dark:bg-gradient-to-b from-gray-800 to-black text-gray-500 font-bold flex flex-col md:flex-row mb-[400px] '>
-      <div className="md:w-1/2 flex items-center justify-center">
+      <div className="md:w-1/2 mt-[13rem] flex items-center justify-center">
         <img
           src={avatar}
           alt=""
-          className="mt-12 md:mt-14 max-w-xs md:max-w-full mx-auto"
+          className="mt-12 md:mt-0 max-w-xs md:max-w-full mx-auto relative"
         />
       </div>
       
