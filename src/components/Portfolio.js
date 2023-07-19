@@ -4,10 +4,11 @@ import Project2 from "../stack/Project2.PNG"
 import Project3 from "../stack/Project3.PNG"
 import Project4 from "../stack/Project4.PNG"
 import Project5 from "../stack/Project5.PNG"
+import "./portfolio.css";
 const Portfolio = () => {
 
     return (
-        <div name="portfolio" className='dark:bg-gradient-to-b from-black to-gray-800 w-full text-gray-500 font-bold text-xl lg:mt-[100px] sm:mt-[345px]'>
+        <div name="portfolio" className='dark:bg-gradient-to-b from-black to-gray-800 w-full text-gray-500 font-bold text-xl sm:mt-[-100px] custom-margin'>
 
             <div className='max-w-screen-lg p-4 max-auto flex flex-col
 justify-center w-full h-full'>
@@ -16,7 +17,7 @@ justify-center w-full h-full'>
                     <p className='py-6'>Check Out some of my work right here</p>
                 </div>
 
-                <div className='grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ml-20'>
+                <div className='grid mb-9 sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0 ml-20'>
                     
 
                         <div className='shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105'>
@@ -47,7 +48,7 @@ justify-center w-full h-full'>
                                 <a href='https://github.com/chahatjl/router-project-starter'target='_blank' rel="noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Code</button></a>
                             </div>
                         </div>
-                        <div className='shadow-md shadow-gray-600 rounded-lg duration-200 hover:scale-105'>
+                        <div className='shadow-md  shadow-gray-600 rounded-lg duration-200 hover:scale-105'>
                             <img src={Project5} alt='Random-Gif-Generator' />
                             <div className='flex items-center justify-center'>
                                 <a href='https://random-gif-generator-eight.vercel.app/'target='_blank' rel="noreferrer"><button className='w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105'>Live</button></a>

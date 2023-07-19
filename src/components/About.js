@@ -19,7 +19,7 @@ const About = () => {
             </div>
           
           <p className='text-xl mt-12'>
-        Hi , I am Chahat Jindal Keen Learner having 2.4 years of experience in IT sector
+        Hi , I am Chahat Jindal Keen Learner having Close to 3 years of experience in IT sector
 
         Started of my career as Test Engineer and then changed my profile to Java Developer
          </p>
