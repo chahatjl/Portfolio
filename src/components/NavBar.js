@@ -1,8 +1,9 @@
 import React, { useState } from 'react'
-import {FaBars,FaTimes,FaHome,FaProjectDiagram} from "react-icons/fa";
+import {FaBars,FaTimes,FaHome} from "react-icons/fa";
 import {BsFillPersonFill} from "react-icons/bs"; 
 import {MdOutlineHomeRepairService} from "react-icons/md";
 import {FcContacts} from "react-icons/fc";
+import {IoIosPaper} from "react-icons/io";
 import { Link } from 'react-scroll';
 import{MdWbSunny,MdNightsStay} from "react-icons/md";
 const NavBar = ({darkmode,setDarkMode}) => {
@@ -31,7 +32,7 @@ const NavBar = ({darkmode,setDarkMode}) => {
         },
     ]
   return (
-    <div className='flex justify-between items-center text-white w-full h-20 fixed bg-black px-4'>
+    <div className='flex justify-between relative items-center text-white w-full h-20  bg-black px-4'>
         <div>
             <h1 className='text-5xl font-sign ml-2'>Chahat</h1>
         </div>
@@ -42,7 +43,7 @@ const NavBar = ({darkmode,setDarkMode}) => {
             <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105
                         duration-200'><BsFillPersonFill/><Link to='about' smooth duration={500}>about</Link></li>
             <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105
-                        duration-200'><FaProjectDiagram/><Link to='portfolio' smooth duration={500}>portfolio</Link></li>
+                        duration-200'><IoIosPaper/><Link to='portfolio' smooth duration={500}>portfolio</Link></li>
             <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105
                         duration-200'><MdOutlineHomeRepairService/><Link to='experience' smooth duration={500}>experience</Link></li>
             <li className='px-4 cursor-pointer capitalize font-medium text-gray-500 hover:scale-105

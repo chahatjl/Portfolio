@@ -8,10 +8,10 @@ import "./Home.css";
 const Home = () => {
   return (
     <div name="home" className='h-screen w-full dark:bg-gradient-to-b from-black via-black to-gray-800 text-gray-500 font-bold text-xl flex sm:md-[700px]'>
-      <div className='max-w-screen-lg mx-auto flex flex-col sm:flex-row items-center justify-center h-full px-4'>
-        <div className='flex flex-col justify-center sm:w-1/2'>
+      <div className='max-w-screen-lg mx-auto flex flex-col  sm:flex-row items-center justify-center h-full px-4'>
+        <div className='flex flex-col justify-center mr-24 mb-20 sm:w-1/2'>
           <div className='flex relative max-w-[200px]'>
-            <h2 className='text-4xl sm:text-7xl text-gray-500 font-bold mt-[400px] '><Type/></h2>
+            <h2 className='text-4xl sm:text-7xl text-gray-500 font-bold mt-[400px]'><Type/></h2>
           </div>
           <p className='text-gray-500 py-4 max-w-md sm:text-5xl'>Hi I am <span className=' text-blue-800 uppercase'>chahat jindal</span></p>
           <div>
@@ -26,7 +26,7 @@ const Home = () => {
           </div>
         </div>
         <div className="sm:w-1/2">
-          <img src={cj} alt='' className='mt-6 sm:mt-0 mr-7 w-[600px] h-[600px] object-fill rounded-xl image sm:flex-col hover:shadow-xl'></img>
+          <img src={cj} alt='' className='mt-6 sm:mt-0 mr-7 w-[400px] h-[400px] object-fill rounded-xl image sm:flex-col'></img>
         </div>
       </div>
     </div>
